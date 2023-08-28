@@ -1,0 +1,80 @@
+<html>
+ <head>
+    <link rel="Stylesheet" href="style.css">
+   <title>Demo</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ </head>    
+ <body>
+       <div class="quizbutton">
+         <button>Start Quiz</button>
+       </div>
+
+       <div class="info-box">
+               <div class="ruleheading">
+                  <span>Some rules of this Quiz</span>
+               </div>  
+       
+               <div class="rules">
+                    <p>1.You will have only 15 seconds per question.</p>
+                    <p>2.Once you select your answer , it cannot be undone.</p> 
+                    <p>3.You cannot select any option once time runs out.</p>
+                    <p>4.You cannot exit the quiz while you are playing.</p>
+                    <p>5.You will get points on the basis of your correct answers.</p>
+                    <br><br>
+               </div>
+
+               <div class="EndAndContinueButtons">
+                  <button class="exit">Exit Quiz</button>
+                  <button class="continue">Continue</button>
+               </div>
+       </div>
+
+       <div class="quizbox">
+          <header>
+             <div class="heading">
+                <p>Programming Quiz</p>
+             </div>
+             
+             <div class="timer">
+                <div class="timestring">Time Left</div>
+                <div class="timeremaining">15</div>
+             </div>
+
+             <div class="time_line"></div>
+          </header>
+          <section>
+         <div class="questiontext">
+
+         </div>
+         <div class="optionslist">
+
+         </div>
+         </section>
+          <footer>
+          <div class="questionCounter">
+       
+          </div>
+            <button type="submit">Next Question</button><br><br>
+         </div>
+         </footer>
+
+
+          <div class="resultbox">
+             <div class="icon">
+             <i class="fas fa-crown"></i>
+             </div>
+          <h4>You Have Completed The Quiz!</h4>
+
+          <div class="score">
+             
+          </div>
+
+          <div class="finishButtons">
+          <button class="reset">Replay Quiz</button>
+          <button class="menu">Quit Quiz</button>
+          </div>     
+          </div> 
+<script src="question.js"></Script>
+<script src="Script.js"></Script>
+ </body>
+ </html>
